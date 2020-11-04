@@ -1,0 +1,79 @@
+.App {
+  display: grid;
+  grid-template-columns: 20% 30% 50%;
+  width: 100%;
+  margin: auto;
+  border: 1px solid grey;
+  background-color: rgba(51, 51, 51, 0.308);
+  padding: 50px;
+  display: flex;
+}
+
+.logout-div {
+  margin-right: 50px;
+  background-color: #ffffff;
+  height: 300px;
+  width: 200px;
+}
+
+.logout-div button{
+  background-color: purple;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 6px;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.logout-div button:hover {
+  background-color: lightcoral;
+  color: #000000;
+} 
+.App_user-info{
+  margin-right: 10px;
+}
+
+.add_user{
+  margin-right: 150px;
+}
+
+input[type=text] {
+	height: 20px;
+	width: 100%;
+	border-color: #6c2044;
+	border-radius: 5px;
+	margin-bottom: 20px;
+
+}
+
+input[type=number] {
+	height: 20px;
+	width: 100%;
+	border-color: #6c2044;
+	border-radius: 5px;
+	margin-bottom: 20px;
+
+}
+
+input[placeholder] {
+	color: darkblue;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+
+.add_user button {
+  background-color: #6c2044;
+  color: #fff;
+  font-size: 20px;
+  padding: 12px;
+}
+
+.add_user button:hover {
+  background-color: #fff;
+	color: #6c2044;
+	font-weight: bold;
+	font-size: 20px;
+}
